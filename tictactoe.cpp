@@ -10,10 +10,8 @@ class TicTacToe
     char winner;
 
 public:
-    // constructor
     TicTacToe() { reset(); }
 
-    // reset
     void resetBoard()
     {
         for (int i = 0; i < 3; i++)
